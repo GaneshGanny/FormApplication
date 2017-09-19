@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+<head>
+   <title>
+      Feedback Form
+   </title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="css/custom.css" />
+   <script type="text/javascript" src="javascript/main.js"></script>
+</head>
+<body>
+
+   <!--<div id="data">
+      <button onclick="myfunction()">check</button>
+   </div>
+   <button onclick="myfunction()">getdetails</button>
+
+      <table>
+         <thead>
+            <th>id</th>
+            <th>componentId</th>
+            <th>patternId</th>
+            <th>fit</th>
+            <th>fabric</th>
+            
+            <th>category</th>
+            <th>morganComponentId</th>
+         <tbody id="details"> <tbody>
+         </table>-->
+      </thead>
+      <button onclick="myfunction()">check</button>
+      <br>
+      <br>
+      <div class="firstblock" id="data">
+         <h3>Mobiles</h3>
+         <ul id="MobileBLock"></ul>
+      </div>
+
+      <div class="secondblock" id="data1">
+         <h3>Mobile Accessories </h3>
+      </div>
+
+      <div class="thirdblock" id="data2">
+         Laptops
+      </div>
+
+      <div class="fourthblock" id="data3">
+         TV's
+      </div>
+
+      <div class="fifthblock" id="data4">
+         Featured
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<button onclick="myfunction()">getdetails</button>
+
+   <table>
+   <thead>
+      <th>empname</th>
+      <th>empid</th>
+      <th>age</th>
+      <th>salary</th>
+      <th>company</th>
+   </thead>
+   <tbody id="details"></tbody>
+</table>-->
+     <!-- <div class="heading">
+         <h1>TECHNINZAZ</h1>
+         <h3>Coach|Educate|Inspire</h3>
+         <br>
+         <h2>FeedBack Form</h2>
+      </div>
+      <br>
+      <br>
+      <div class="content1">
+         Participant's Name :
+         <input type="text" id="name11" maxlength="20" class="name">
+      </div>
+      <br>
+      <div class="content2">
+         Module :
+         <input type="text" id="name22" maxlength="20" class="module">                         
+      </div>
+      <br>
+      <div class="content3">
+         Trainer's Name:
+         <input type="text" id="name33" maxlength="20" class="name">
+      </div>
+      <br>
+      <div class="content4">
+         Training Date :
+         <input type="date" id="name44" class="date">
+      </div>
+      <br>
+      <div class="content5">
+         Phone number:
+         <input type="number" id="name55" class="number" maxlength="10">
+      </div>
+      <br>
+      <div id="Question1">
+      <p> Q.1 How is the content of the course?</p>
+      <div class="options">
+         <input type="radio" class="feedback1"> Excellent
+         <input type="radio" class="feedback1"> V.Good
+         <input type="radio" class="feedback1"> Good
+         <input type="radio" class="feedback1"> Poor
+         <input type="radio" class="feedback1"> V.Poor
+      </div>
+      <br>
+      <div id="Question2">
+      <p> Q.2 How about the time alloted for the course?</p>
+      <div class="options">
+         <input type="radio" class="feedback1"> Excellent
+         <input type="radio" class="feedback1"> V.Good
+         <input type="radio" class="feedback1"> Good
+         <input type="radio" class="feedback1"> Poor
+         <input type="radio" class="feedback1"> V.Poor
+      </div>
+      <br>
+      <div id="Question3">
+      <p> Q.3 What about the Quality of the materials provided for the course?</p>
+      <div class="options">
+         <input type="radio" class="feedback1"> Excellent
+         <input type="radio" class="feedback1"> V.Good
+         <input type="radio" class="feedback1"> Good
+         <input type="radio" class="feedback1"> Poor
+         <input type="radio" class="feedback1"> V.Poor
+      </div>
+      <br>
+      <div id="Question4">
+      <p> Q.4 What about the Instructors Knowledge about the subject?</p>
+      <div class="options">
+         <input type="radio" class="feedback1"> Excellent
+         <input type="radio" class="feedback1"> V.Good
+         <input type="radio" class="feedback1"> Good
+         <input type="radio" class="feedback1"> Poor
+         <input type="radio" class="feedback1"> V.Poor
+      </div>
+      <br>
+      <div id="Question5">
+      <p> Q.5 How are the Presentation methods?</p>
+      <div class="options">
+         <input type="radio" class="feedback1"> Excellent
+         <input type="radio" class="feedback1"> V.Good
+         <input type="radio" class="feedback1"> Good
+         <input type="radio" class="feedback1"> Poor
+         <input type="radio" class="feedback1"> V.Poor
+      </div>
+      <br>
+      <div id="Question6">
+      <p> Q.6 How about the Communication skills?</p>
+      <div class="options">
+         <input type="radio" class="feedback1"> Excellent
+         <input type="radio" class="feedback1"> V.Good
+         <input type="radio" class="feedback1"> Good
+         <input type="radio" class="feedback1"> Poor
+         <input type="radio" class="feedback1"> V.Poor
+      </div>
+      <br>
+      <div id="Question7">
+      <p> Q.7 How about the Questions Handling?</p>
+      <div class="options">
+         <input type="radio" class="feedback1"> Excellent
+         <input type="radio" class="feedback1"> V.Good
+         <input type="radio" class="feedback1"> Good
+         <input type="radio" class="feedback1"> Poor
+         <input type="radio" class="feedback1"> V.Poor
+      </div>
+      <br>
+      <div id="Question8">
+      <p> Q.8 How is the Interaction of the trainer with the trainee?</p>
+      <div class="options">
+         <input type="radio" class="feedback1"> Excellent
+         <input type="radio" class="feedback1"> V.Good
+         <input type="radio" class="feedback1"> Good
+         <input type="radio" class="feedback1"> Poor
+         <input type="radio" class="feedback1"> V.Poor
+      </div>
+      <br>
+      <!--<table class="feedback">
+         <thead>
+         <tr>
+         <th>Contents</th>
+         <th>Excellent</th>
+         <th>V.Good</th>
+         <th>Good</th>
+         <th>Poor</th>
+         <th>V.Poor</th>
+         </tr>
+         </thead>
+         <tr>
+         <td>Content of the course</td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         </tr>
+         <tr>
+         <td>Time alloted for the course</td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         </tr>
+         <tr>
+         <td>Quality of the materials provided</td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         </tr>
+         <tr>
+         <td>Instructors knowledge about the subject</td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         </tr>
+         <tr>
+         <td>Illustration by practical example</td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         <td><input type="radio" class="feedback1"></td>
+         </tr>
+         <tr>
+         <td>Presentation methods</td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         </tr>
+         <tr>
+         <td>Communication skills</td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         </tr>
+         <tr>
+         <td>Questions handling</td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         </tr>
+         <tr>
+         <td>Interaction of the trianer with the trainee</td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         <td><input type="checkbox" class="feedback1"></td>
+         </tr>
+         
+      </table>-->
+     <!-- <br>
+      <br>
+      Comments :<br>
+      <textarea rows="4" cols="50">
+</textarea>
+      <br>
+      <br>
+      Signature:
+      <input type="text" id="name66" name="signature">
+      <br>
+      <br>
+      Date:
+      <input type="date" id="name77" name="date">
+      <br>
+      <br>
+      <table>
+         <thead>
+            <tr></tr>
+         </thead>
+      </table>
+      <button type="submit" name="submit" onclick="myfunction()" >Submit</button>
+
+      <!--<table width="100%">
+         <thead>
+            <th>EMP ID</th>
+            <th>Emp Name</th>
+            <th>Company</th>
+         </thead>
+         <tbody>
+
+         </tbody>
+      </table>-->
+   </body>
+   </html>
